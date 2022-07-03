@@ -2,6 +2,6 @@
 Utility Python scripts for processing exported CSV from a TradingView chart
 
 - **identify_candles.py**
-  - Prints datetime of candles that match a given simple condition
+  - Prints datetime of candles that match a given simple condition. This is useful for jumping around doing manual backtest
   - Example `python identify_candles.py file.csv "volume MA" "col > 500"`
   - The keyword `col` refers to the given column "volume MA"
